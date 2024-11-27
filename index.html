@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="shortcut icon" href="./src/image/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <img src="./src/image/logo.png" alt="" width="120" height="50" class="header-logo">
+        <nav>
+            <ul class="header-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#sinopse">Sinopse</a></li>
+                <li><a href="#personagens">Personagens</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./src/image/17.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./src/image/15.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./src/image/16.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./src/image/13.png" alt=""></div>
+        
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+
+    <main class="main">
+        <div class="main-sinopse" id="sinopse">
+        <h1 class="titulo">Sinopse</h1>
+        <p class="texto">Arcane é uma série de animação ambientada nas cidades de Piltover e Zaun, duas localidades com realidades sociais e políticas distintas. Piltover é uma cidade próspera, marcada pela inovação e avanços tecnológicos, enquanto Zaun é uma cidade subterrânea, onde a pobreza e o caos predominam.
+
+            A história acompanha principalmente duas irmãs, Vi e Jinx, que cresceram em Zaun. Após uma tragédia que separa as duas, suas trajetórias se tornam bem diferentes. Vi se junta a um grupo de vigilantes e busca justiça para os injustiçados, enquanto Jinx, marcada por suas experiências traumáticas, se transforma em uma criminosa imprevisível e instável, espalhando caos por onde passa.
+            
+            Além da história das irmãs, a série explora o desenvolvimento de Jayce, um inventor visionário de Piltover, que descobre uma nova tecnologia capaz de mudar o equilíbrio de poder entre as duas cidades. Caitlyn, uma policial de Piltover, também entra em cena, determinada a resolver os mistérios por trás dos crimes cometidos em sua cidade e desmantelar a corrupção que ameaça a paz.
+            
+            Arcane mergulha nas complexas relações entre esses personagens, explorando temas como poder, vingança, amizade e os efeitos da tecnologia no equilíbrio social. A trama é marcada por reviravoltas emocionais e uma rica construção de mundos, com destaque para os contrastes entre as duas cidades.</p>
+        </div>
+    </main>
+
+    <article class="main-trailer">
+        <h1 class="titulo">Trailer</h1>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/3MB3OK3Xnvs" 
+                title="Arcane | Trailer oficial | Netflix" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+    </article>
+
+
+    <section class="container" id="personagens">
+        <div class="tab-butons">
+          <button class="tab-btn active" content-id="jinx">Jinx</button>
+
+          <button class="tab-btn" content-id="vi">Vi</button>
+
+          <button class="tab-btn" content-id="cait">Caitlyn</button>
+
+          <button class="tab-btn" content-id="ekko">Ekko</button>
+
+          <button class="tab-btn" content-id="heimer">Heimerdinger</button>
+
+          <button class="tab-btn" content-id="ambessa">Ambessa</button>
+
+          <button class="tab-btn" content-id="jayce">Jayce</button>
+
+          <button class="tab-btn" content-id="mel">Mel</button>
+
+          <button class="tab-btn" content-id="sevika">Sevika</button>
+
+          <button class="tab-btn" content-id="viktor">Viktor</button>
+
+          <button class="tab-btn" content-id="ww">Warwick</button>
+
+
+
+        </div>        
+
+        <div class="tab-contents">
+
+            <div class="content show" id="jinx">
+                <img src="./src/image/perfil/jinx.png" alt="" class="content-img">
+                <div class="infos">
+                    <h1 class="titulo">Jinx</h1>
+                    <p class="description">Jinx ficou dividida entre duas identidades: a poderosíssima filha que Silco criou e a fraca e amedrontada irmãzinha que Vi protegeu. Agora, aceitando que ela finalmente se tornou o monstro que Vi criou, Jinx é apenas uma casca vazia, carregando consigo o "azar" que tudo destrói.</p>
+                </div>
+            </div>
+
+            <div class="content " id="vi">
+                <img src="./src/image/perfil/vi.png" alt="" class="content-img">
+                <div class="infos">
+                    <h1 class="titulo">Vi</h1>
+                    <p class="description">Aceitando que Powder se foi, Vi entende o que precisa fazer: lidar com Jinx, o monstro que ela criou. Sabendo como sua irmã pode ser perigosa, Vi se une a Caitlyn e cede ao pedido de usar o distintivo de Defensora.</p>
+                </div>
+            </div>
+
+
+            <div class="content" id="cait">
+                <img src="./src/image/perfil/cait.png" alt="" class="content-img">
+                <div class="infos">
+                    <h1 class="titulo">Cait</h1>
+                    <p class="description">Caitlyn é uma Defensora de Piltover. Antigamente, ela usava sua engenhosidade investigativa para expor fontes de corrupção em Zaun e Piltover, mas depois que Jinx atacou o conselho, ela não acredita mais na paz.</p>
+                </div>
+            </div>
+            
+
+            <div class="content" id="ekko">
+                <img src="./src/image/perfil/ekko.png" alt="" class="content-img">
+                <div class="infos">
+                    <h1 class="titulo">Ekko</h1>
+                    <p class="description">Ekko é a força que move os Fogolumes, um grupo de zaunitas que farão qualquer coisa para lutar e proteger o novo lar que criaram. Ele criou uma amizade improvável com Heimerdinger e, juntos, eles tentarão transformar Zaun em um lugar melhor.</p>
+                </div>
+            </div>
+
+            <div class="content" id="heimer">
+                <img src="./src/image/perfil/heimer.png" alt="" class="content-img">
+                <div class="infos">
+                    <h1 class="titulo">Heimerdinger</h1>
+                    <p class="description">Heimerdinger avisou o Conselho de Piltover sobre os perigos de usar magia sem soluções tangíveis de segurança. Aprendendo com seus erros com Jayce, Heimerdinger inspira Ekko a continuar buscando soluções, trabalhando em conjunto para solucionar o problema em vez de apenas aconselhar.</p>
+                </div>
+            </div>
+
+            <div class="content" id="ambessa">
+                <img src="./src/image/perfil/ambessa.png" alt="" class="content-img">
+                <div class="infos">
+                    <h1 class="titulo">Ambessa</h1>
+                    <p class="description">Ambessa, uma guerreira noxiana e mãe de Mel, jurou proteger o nome da família... mesmo que isso signifique ir contra os desejos da filha.</p>
+                </div>
+            </div>
+
+
+            <div class="content" id="jayce">
+                <img src="./src/image/perfil/jayce.png" alt="" class="content-img">
+                <div class="infos">
+                    <h1 class="titulo">Jayce</h1>
+                    <p class="description">Depois de vários acontecimentos, Jayce questiona a própria visão sobre o uso da tecnologia Hextec para melhorar a vida do povo de Piltover. Enquanto isso, ele descobre com Ekko e Heimerdinger que o uso da Hextec está envenenando a Subferia. E, conforme investigam, eles acabam fazendo mais descobertas.</p>
+                </div>
+            </div>
+
+            <div class="content" id="mel">
+                <img src="./src/image/perfil/mel.png" alt="" class="content-img">
+                <div class="infos">
+                    <h1 class="titulo">Mel</h1>
+                    <p class="description">O investimento calculado de Mel na Hextec transformou Piltover em um dos maiores centros comerciais de Runeterra, o que a tornou uma das pessoas mais influentes da cidade. Recuperando-se do ataque de Jinx, Mel se posiciona contra a própria mãe e o conselheiro Salo para proteger o sonho de Jayce.</p>
+                </div>
+            </div>
+
+            <div class="content" id="sevika">
+                <img src="./src/image/perfil/cevica.png" alt="" class="content-img">
+                <div class="infos">
+                    <h1 class="titulo">Sevika</h1>
+                    <p class="description">Sevika sempre viveu nas sombras de Piltover. Com os Barões da Química guerreando entre si pelo domínio de Zaun depois da morte de Silco, Sevika não esquece quem é o verdadeiro inimigo: o Ladoalto.</p>
+                </div>
+            </div>
+
+            <div class="content" id="viktor">
+                <img src="./src/image/perfil/viktor.png" alt="" class="content-img">
+                <div class="infos">
+                    <h1 class="titulo">viktor</h1>
+                    <p class="description">Viktor ultrapassa os limites da Hextec, mesmo depois de ser avisado sobre os perigos dela. Dominado pela culpa, Viktor parte para realizar o sonho de levar a Hextec para o povo.</p>
+                </div>
+            </div>
+
+
+            <div class="content" id="ww">
+                <img src="./src/image/perfil/ww.png" alt="" class="content-img">
+                <div class="infos">
+                    <h1 class="titulo">Warwick</h1>
+                    <p class="description">A ira primitiva de Warwick, uma fera criada por Singed, confronta a humanidade fragmentada que ainda existe dentro da criatura. Será que Vander pode ser salvo apesar de toda essa dor?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<footer>
+    <div class="rodape">
+        <p class="rodape-texto"><a href="https://www.riotgames.com/pt-br" target="_blank"> Rito gomes</a></p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./src/scripts/scripts.js"></script>
+</body>
+</html>
